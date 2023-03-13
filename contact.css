@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: url(./contact_bg.jpg) no-repeat;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+     font-size: 16px;
+}
+.container
+{
+    position: absolute;
+    top:50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.contact_us
+{
+     width: 100%;
+     max-width: 500px;
+     height: auto;
+     background:rgba(33, 33, 33, 0.7);
+     padding: 40px 50px;
+     border-radius:8px;
+}
+.title
+{
+    font-size:25px;
+    line-height: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: aqua;
+    padding-bottom: 15px;
+}
+.input_fields
+{
+    padding:0 30px;
+}
+.input_fields .items
+{
+    width: 100%;
+    padding-bottom: 15px ;
+}
+.input_fields .items .label
+{
+    display: block;
+    font-size:15px;
+    color:white;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.input_fields .items .input
+
+
+{
+    background:transparent;
+    width:300px;
+    height: 30px;
+    font-size: 13px;
+color:aqua;
+font-size: 1em;    
+font-family: 'Roboto', sans-serif;
+
+}
+.input_fields .items .txt_area
+
+{
+    background:transparent;
+    width:300px;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;   
+    color:white;
+}
+
+.button{
+    width:100px;
+border:1px solid rgb(7, 14, 14);
+padding: 10px;
+text-align: center;
+cursor: pointer;
+justify-content: center;
+margin-left: 38%;
+background-color:transparent;
+color: aqua;
+
+
+
+}
+.button:hover
+{
+    background-color: aqua;
+    color: black;
+    font-weight:400;
+    box-shadow: red;
+    border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
